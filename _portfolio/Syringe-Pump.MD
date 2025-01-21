@@ -12,7 +12,7 @@ gallery:
 
 # Features
 
-* **Precision Linear Motion: ** Achieved using lead screws, stepper motors, or linear rails for accurate syringe movement
+* **Precision Linear Motion** Achieved using lead screws, stepper motors, or linear rails for accurate syringe movement
 * **Microcontroller-Based Operation** Uses an Arduino
 * **Adjustable Syringe Holder** Accommodates different syringe sizes
 
