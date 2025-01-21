@@ -27,4 +27,4 @@ Shunnar possesses a strong understanding of various technologies, enabling him t
 
 Shunnar has acted as a writer and editor for [The Vanderbilt Hustler](https://vanderbilthustler.com/staff_name/shunnar-virani/) and [The Vanderbilt Political Review](https://vanderbiltpoliticalreview.com/staff_name/shunnar-virani/).
 
-<img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/>
+<img src="/assets/img/IMG_6814.jpeg" alt="Shunnar Virani" style="width:200px;"/>
