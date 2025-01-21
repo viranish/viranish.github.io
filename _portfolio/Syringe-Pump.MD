@@ -6,7 +6,8 @@ header:
   teaser: /assets/img/IMG_9222.jpg
 gallery:
   - image_path: assets/img/IMG_9221.jpg
-  - image_path: assets/img/IMG_9222.jpg
+  - image_path: assets/img/IMG_9222.jpg 
+  - image_path: assets/img/Screenshot 2025-01-21 012402.png
    
 ---
 
