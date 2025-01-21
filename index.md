@@ -1,26 +1,26 @@
 ---
-title: "Example Web Page"
+title: "Web Portfolio"
 layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/img/Home-Banner-Image.jpeg
+  overlay_image: /assets/img/ece-intro.jpg
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Dr. David Florian is an engineer with a passion for teaching and the open-source community. His area of expertise is 3D printing, with an emphasis on large format pellet extrusion and selective laser sintering."
+excerpt: "Shunnar Virani is an engineer and aspiring patent lawyer with a specialized focus in electrical and computer engineering, particularly in power electronics and semiconductors. He combines technical expertise with a keen interest in intellectual property, aiming to bridge the gap between innovation and legal protection."
 feature_row:
-  - image_path: assets/img/CNC-Mill-Thumbnail.jpg
-    alt: "CNC Mill"
-    title: "Custom CNC Milling Machine"
-    excerpt: "Built for fabricating aluminum and steel parts."
-  - image_path: assets/img/Plasma-Cutter-Banner.jpg
+  - image_path: assets/img/ece-intro.jpg
+    alt: "ECE Intro"
+    title: "Chip Design"
+    excerpt: "Central Processing Unit (CPU) Installation on Motherboard"
+  - image_path: assets/img/powergrid-2.jpg
     alt: "placeholder image 2"
-    title: "DIY Plasma Cutter"
-    excerpt: "A hot plasma stream slices through sheet metal."
-  - image_path: assets/img/Zidex-Thumbnail.jpg
-    title: "Bespoke IDEX 3D Printer"
-    excerpt: "Multimaterial printing. "
+    title: "Power Grid"
+    excerpt: "Transmission lines relaying power"
+  - image_path: assets/img/MIT-Tiny-AI-01.jpg
+    title: "Internet of Things"
+    excerpt: "Systems are connected through internet of things. "
 ---
 
 {% include feature_row %}
