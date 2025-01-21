@@ -1,31 +1,30 @@
 ---
 
-title: "About David Florian"
+title: "About Shunnar Virani"
 
 ---
 
 ## Education
 
-David prides himself on his diverse skill set. His most prominent fields of expertise are additive manufacturing (i.e., 3D printing) and biotechnology. 
+Shunnar has pursued an interdisciplinary education, bridging the technical rigor of engineering with the analytical depth of law and history in the liberal arts. 
 
-* University of Virginia
-  * BS Mathematics
-  * BS Biomedical Engineering
 * Vanderbilt University
-  * PhD Biomedical Engineering
+  * BE Electrical and Computer Engineering
+  * Law, History, and Society
+  * Minors: Computer Science, Digital Fabrication, and European Studies
 
 ## Technical Skills
 
-David can operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. David has experience with the following additive manufacturing technologies:
+Shunnar possesses a strong understanding of various technologies, enabling him to effectively implement both hardware and software solutions. Shunnar has experience with the following technologies:
 
-* Fused Filament Fabrication (FFF)
-* Stereolithography (SLA)
-* Selective Laser Sintering (SLS)
-* 3D Inkjet Printing
-* Bioplotting
+* SPICE Simulation (LTSpice/PSpice)
+* Front and Back end coding (Java, Python, C++, HTML/CSS, Javascript)
+* System Modeling (Simulink, PowerWorld)
+* CAD and 3D Printing
+* PCB Design (KiCAD, EasyEDA, Altium)
 
 ## Press 
 
-The new Digital Fabrication Minor was covered in the [Vanderbilt Hustler](https://vanderbilthustler.com/2022/11/09/digital-fabrication-minor-introduced-for-2022-23-academic-year/).
+Shunnar has acted as a writer and editor for [The Vanderbilt Hustler](https://vanderbilthustler.com/staff_name/shunnar-virani/) and [The Vanderbilt Political Review](https://vanderbiltpoliticalreview.com/staff_name/shunnar-virani/).
 
 <img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/>
