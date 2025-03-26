@@ -1,6 +1,6 @@
 ---
 title: "Microfluidics"
-excerpt: "A microfluidic device is a device with small channels and tubes that transport, sort, and mix reagents together"
+excerpt: "A microfluidic device is a device with small channels and tubes that transport, sort, and mix reagents together."
 header:
   image: /assets/img/IMG_5255.jpg
   teaser: /assets/img/IMG_5255 (1).jpg
@@ -10,11 +10,11 @@ gallery:
    
 ---
 
-# Features
+# Introduction
 
-* **Precision Linear Motion** Achieved using lead screws, stepper motors, or linear rails for accurate syringe movement
-* **Microcontroller-Based Operation** Uses an Arduino
-* **Adjustable Syringe Holder** Accommodates different syringe sizes
+* **Microfluidic Devices** A microfluidic device is a device with small channels and tubes that transport, sort, and mix reagents together.
+* **Pinch Flow Fractionation (PFF)** PFF is a microfluidic technique that separates and sorts particles based on their size. It controls fluid flow by created pinched microchannels, which later flow into broader sections, to separate particles into different streamlines, based on size, without the aid of any outside forces. 
+* **Specific Application** Such size-based separation in PFF was used to separate circulating tumor cells (CTCs) from white blood cells (WBCs), to study cancer cells further. Here is a [link](https://pubs.rsc.org/en/content/articlelanding/2015/lc/c5lc01014d?utm_source=chatgpt.com) to the study.
 
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a48c8428571d48595c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
