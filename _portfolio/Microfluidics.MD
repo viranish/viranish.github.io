@@ -14,7 +14,8 @@ gallery:
 
 * **Microfluidic Devices** A microfluidic device is a device with small channels and tubes that transport, sort, and mix reagents together.
 * **Pinch Flow Fractionation (PFF)** PFF is a microfluidic technique that separates and sorts particles based on their size. It controls fluid flow by created pinched microchannels, which later flow into broader sections, to separate particles into different streamlines, based on size, without the aid of any outside forces. 
-* **Specific Application** Such size-based separation in PFF was used to separate circulating tumor cells (CTCs) from white blood cells (WBCs), to study cancer cells further. Here is a [link](https://pubs.rsc.org/en/content/articlelanding/2015/lc/c5lc01014d?utm_source=chatgpt.com) to the study.
+* **Specific Application** Such size-based separation in PFF was used to separate circulating tumor cells (CTCs) from white blood cells (WBCs), to study cancer cells further. Here is a [link](https://pubs.rsc.org/en/content/articlelanding/2015/lc/c5lc01014d?utm_source=chatgpt.com) to the study. Citation: M. Pødenphant et al., “Separation of cancer cells from white blood cells by pinched flow fractionation,” Lab on a Chip, vol. 15, no. 24, pp. 4598–4606, 2015, doi: https://doi.org/10.1039/c5lc01014d.
+‌
 
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a45202251d9212cebc?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
