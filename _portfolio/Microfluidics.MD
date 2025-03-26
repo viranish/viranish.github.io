@@ -2,12 +2,11 @@
 title: "Microfluidics"
 excerpt: "A microfluidic device is a device with small channels and tubes that transport, sort, and mix reagents together"
 header:
-  image: /assets/img/IMG_9221.jpg
-  teaser: /assets/img/IMG_9222.jpg
+  image: /assets/img/IMG_5255.jpg
+  teaser: /assets/img/IMG_5255 (1).jpg
 gallery:
-  - image_path: assets/img/IMG_9221.jpg
-  - image_path: assets/img/IMG_9222.jpg 
-  - image_path: assets/img/Screenshot 2025-01-21 012402.png
+  - image_path: assets/img/IMG_5255 (2).jpg
+  - image_path: assets/img/IMG_5256.jpg 
    
 ---
 
