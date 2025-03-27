@@ -20,64 +20,26 @@ gallery:
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a45202251d9212cebc?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-# Arduino Code
+# Instructions
 
-Here is a [link](https://github.com/viranish/viranish.github.io/blob/main/spump.ino) to the Arduino Code
+* **CAD Model** Design the mold in Fusion 360 using the Pinch Flow Fractionation equation to determine the Y coordinates of the outlet streams. The design is made on top of the base model available in the assignment.
+* **Print and Curable Mold** Print the mold in the resin printers (Form 3 or 4) with a 0.05 mm or 0.025 mm layer height. Once done, wash the device for five minutes in FormWash on the print bed, then wash it for five minutes in fresh IPA, dry it upside down for 30 minutes, perform a surface cure for 60 seconds, and finally remove the support material. 
+* **Parylene Device** Apply a thin layer of parylene coating on the internal and external surfaces on the mold to prevent PDMS adhesion.
+* **Cast PDMS** Pour PDMS coating onto the mold and cure it for 24 hours at 23 degrees Celsius. Then carefully remove the PDMS from the mold.
+* **Plasma Bond Glass Slide** Press the glass slide surface onto the PDMS and press them together to stick them to each other, ensuring no air bubbles are trapped.
 
-# Pump Operation
+# Discussion
 
-* **Starting and Pausing Operation** Press the latching button to begin operation of the syringe pump. The LED will turn green as the syringe is in motion. The button can be pressed again to pause motion at any point, turning the LED yellow. In the case that the syringe is out of liquid, meaning it has been fully pressed to empty, the LED will turn red. 
+* Resin printed molds are coated parylene to create a hydrophobic layer that prevents uncured PDMS from reacting to or adhering to the resin mold surface. This results in a smoother finish with less defects. One application of the micro fluidic sorting device is that it could be used for a biomedical research project where cells have to be separated based on size to be studied. Other applications include drug testing, food testing, and environmental testing. 
 
-* **Programming Operation:
-The flowrate of the pump can be set in the Arduino Program in mL/min and then uploaded to the syringe pump itself. To access the arduino, slide the electrical housing off of the lid.
+* My device is conducive to sorting because it provides control over fluid dynamics and the trajectories of certain particles. The pinch width was the smallest feasible option (1.5 times the diameter of the largest particle). The construction focuses the fluid stream and aligns the particles and creates a stable, laminar flow. The pinch width being low increases the precision of particle separation by forcing the particles to align and then flow into distinct streamlines. The outlet width is calculated using the formula for the appropriate Y-coordinates for each particle size. This ensures the flow of particles into the correct outlet, sorted by size. The outlet ports are located at the end of each of these streams to ensure proper separation of particles by size.
 
-* **Switching Syringes** Syringes can simply be switched out manually. The barrel grip must be slid into the end support slit, while the plunger grip is simultaneously fit into the carriage. 
+* To ensure that each outlet receives the same flow rate, symmetrical outlet design is ensured by maintaining equal channel lengths, maintaining equal hydraulic resistance. Also the design minimizes dead volumes and sharp edges, which causes a decrease in trapped bubbles, which are potential causes for change in flow rate. 
 
 * **Changing Direction** The left and right momentary buttons can be held down to move the lead screw clockwise and counterclockwise respectively. While enabling a kind of manual control mode, they mainly serve to adjust the carriage position electronically (as opposed to physically by using one’s hands).
 
-* **Flowrate Control** The flow rate can be incrementally controlled and adjusted by a potentiometer; turning the potentiometer counterclockwise will halt the flow rate, whilst turning clockwise increases it. The minimum of the potentiometer (full counterclockwise rotation) translates to 0% of the flow rate in the arduino program, and the maximum (full clockwise rotation) is 100% of that in the arduino program. 
+* Based on the results, one improvement that can be made is ensuring better outlet channel geometry. This can be done by altering outlet widths to ensure that each outlet has the same area. The length of the outlet channel can also be altered to make sure that each outlet is symmetrical, ideally the same length. The shape of the outlet channels can be altered to have equal flow rates in each channel. The transition angles to the outlet channels can also be smoothed by fillets. More outlet ports could also help sort finer particle size, but that could also bring up a challenge for outlet spacing. 
 
-# Off-the-shelf parts
 
-| Items                 |
-| -------------         |
-| Stepper Driver        |
-| Push button           |
-| Breadboard            |
-| Arduino               |
-| Ball Bearing          |
-| Coupler               |
-| Hex Socket            |
-| Lead Screw            |
-| LED                   |
-| Linear Rod            |
-| Linear Bearing        |
-| Lock Collar Lead Screw|
-| Lock Collar Linear Rod|
-| M3 Nut                |
-| M3x8 Thread Screw     |
-| M3x10 Bolt            |
-| M5 Tee Nut            |
-| M5x8 Bolt             |
-| RT-65D                |
-| Motion Button         |
-| Motor                 |
-| Nut tr8               |
-| Potentiometer         |
-| Syringe piston        |
-| V Slot                |
-
-# 3D Printed Parts
-
-| Items         |
-| ------------- |
-| Carriage      |
-| Enclosure     |
-| End support   |
-| Grip Support  |
-| Enclosure Lid |
-| Motor Mount   |
-| Tip Support   |
-
-{% include gallery caption="Syringe Pump Gallery" %}
+{% include gallery caption="Microfluidics Gallery" %}
 
