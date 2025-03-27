@@ -36,8 +36,6 @@ gallery:
 
 * To ensure that each outlet receives the same flow rate, symmetrical outlet design is ensured by maintaining equal channel lengths, maintaining equal hydraulic resistance. Also the design minimizes dead volumes and sharp edges, which causes a decrease in trapped bubbles, which are potential causes for change in flow rate. 
 
-* **Changing Direction** The left and right momentary buttons can be held down to move the lead screw clockwise and counterclockwise respectively. While enabling a kind of manual control mode, they mainly serve to adjust the carriage position electronically (as opposed to physically by using one’s hands).
-
 * Based on the results, one improvement that can be made is ensuring better outlet channel geometry. This can be done by altering outlet widths to ensure that each outlet has the same area. The length of the outlet channel can also be altered to make sure that each outlet is symmetrical, ideally the same length. The shape of the outlet channels can be altered to have equal flow rates in each channel. The transition angles to the outlet channels can also be smoothed by fillets. More outlet ports could also help sort finer particle size, but that could also bring up a challenge for outlet spacing. 
 
 
