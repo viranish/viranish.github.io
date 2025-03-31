@@ -7,7 +7,8 @@ header:
 gallery:
   - image_path: assets/img/IMG_5273.jpg
   - image_path: assets/img/IMG_5274.jpg 
-  - image_path: assets/img/IMG_5275.jpg 
+  - image_path: assets/img/IMG_5275.jpg
+  - image_path: assets/img/gif.jpg
 
 ---
 
