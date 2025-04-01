@@ -8,24 +8,26 @@ gallery:
   - image_path: assets/img/IMG_5273.jpg
   - image_path: assets/img/IMG_5274.jpg 
   - image_path: assets/img/IMG_5275.jpg
-  - image_path: assets/img/gif.jpg
 
 ---
 
-# Introduction
+# Print in Place
 
-* **Microfluidic Devices** A microfluidic device is a device with small channels and tubes that transport, sort, and mix reagents together.
-* **Pinch Flow Fractionation (PFF)** PFF is a microfluidic technique that separates and sorts particles based on their size. It controls fluid flow by created pinched microchannels, which later flow into broader sections, to separate particles into different streamlines, based on size, without the aid of any outside forces. 
-* **Specific Application** Such size-based separation in PFF was used to separate circulating tumor cells (CTCs) from white blood cells (WBCs), to study cancer cells further. Here is a [link](https://pubs.rsc.org/en/content/articlelanding/2015/lc/c5lc01014d?utm_source=chatgpt.com) to the study. Citation: M. Pødenphant et al., “Separation of cancer cells from white blood cells by pinched flow fractionation,” Lab on a Chip, vol. 15, no. 24, pp. 4598–4606, 2015, doi: https://doi.org/10.1039/c5lc01014d.
+* Description: Print in place designs are made of multiple components that will function after printing. The process requires no post processing or post assembly. While this can be designed through single material extrusion, by allowing clearance between joints where motion is expected, it can also be done by printing a second, more elastic material.
+* Application example: NASA created a print in place ratchet wrench. Citation: Harbaugh, Jennifer A. “Space Station 3-D Printer Builds Ratchet Wrench to Complete First Phase of Operations - NASA.” Explore, NASA, 22 Dec. 2014, www.nasa.gov/missions/station/space-station-3-d-printer-builds-ratchet-wrench-to-complete-first-phase-of-operations/.
+* The Knick Finger is a prosthetic print in place finger. Citation: “THE KNICK FINGER.” Enabling the Future, 2 May 2016, enablingthefuture.org/the-knick-finger/.
+* What material combinations work well: PLA and TPU, PLA amd PVA, ABS and HIPs
 ‌
-
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a481a02d6d5f066cfc?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-# Instructions
+# GIF
 
-* **CAD Model** Design the mold in Fusion 360 using the Pinch Flow Fractionation equation to determine the Y coordinates of the outlet streams. The design is made on top of the base model available in the assignment.
-* **Print and Curable Mold** Print the mold in the resin printers (Form 3 or 4) with a 0.05 mm or 0.025 mm layer height. Once done, wash the device for five minutes in FormWash on the print bed, then wash it for five minutes in fresh IPA, dry it upside down for 30 minutes, perform a surface cure for 60 seconds, and finally remove the support material. 
+
+# Discussion
+
+* **Design and Iterative Process** PLA was used for the jaws and handle of the pliers, while the middle, elastic part was printed using TPU. The spring component was the middle. At first the triangular pattern connecting the pieces was too small, so the pieces did not stay attached. This iteration was also printed at 15 mm, which proved to be too thick. In the next iteration, I reduced the thickness to 10 mm and increased the size of the triangular pattern, while the offset size remained the same (0.1 mm). This time the pieces fit perfectly.
+* **Relevant specifications** The jaw length is 30 mm. The jaw capacity is 4 mm standard and 12.5 mm when stretched. 
 * **Parylene Device** Apply a thin layer of parylene coating on the internal and external surfaces on the mold to prevent PDMS adhesion.
 * **Cast PDMS** Pour PDMS coating onto the mold and cure it for 24 hours at 23 degrees Celsius. Then carefully remove the PDMS from the mold.
 * **Plasma Bond Glass Slide** Press the glass slide surface onto the PDMS and press them together to stick them to each other, ensuring no air bubbles are trapped.
