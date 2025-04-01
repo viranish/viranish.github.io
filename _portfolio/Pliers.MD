@@ -8,6 +8,7 @@ gallery:
   - image_path: assets/img/IMG_5273.jpg
   - image_path: assets/img/IMG_5274.jpg 
   - image_path: assets/img/IMG_5275.jpg
+  - image_path: assets/img/gif.gif
 
 ---
 
@@ -43,5 +44,5 @@ gallery:
 * Based on the results, one improvement that can be made is ensuring better outlet channel geometry. This can be done by altering outlet widths to ensure that each outlet has the same area. The length of the outlet channel can also be altered to make sure that each outlet is symmetrical, ideally the same length. The shape of the outlet channels can be altered to have equal flow rates in each channel. The transition angles to the outlet channels can also be smoothed by fillets. More outlet ports could also help sort finer particle size, but that could also bring up a challenge for outlet spacing. 
 
 
-{% include gallery caption="Microfluidics Gallery" %}
+{% include gallery caption="Pliers Gallery" %}
 
