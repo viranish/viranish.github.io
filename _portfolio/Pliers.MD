@@ -5,6 +5,7 @@ header:
   image: /assets/img/IMG_5273.jpg
   teaser: /assets/img/IMG_5274.jpg
 gallery:
+  - image_path: assets/img/IMG_5280.jpg
   - image_path: assets/img/IMG_5273.jpg
   - image_path: assets/img/IMG_5274.jpg 
   - image_path: assets/img/IMG_5275.jpg
@@ -22,26 +23,12 @@ gallery:
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a481a02d6d5f066cfc?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-# GIF
-
-
 # Discussion
 
 * **Design and Iterative Process** PLA was used for the jaws and handle of the pliers, while the middle, elastic part was printed using TPU. The spring component was the middle. At first the triangular pattern connecting the pieces was too small, so the pieces did not stay attached. This iteration was also printed at 15 mm, which proved to be too thick. In the next iteration, I reduced the thickness to 10 mm and increased the size of the triangular pattern, while the offset size remained the same (0.1 mm). This time the pieces fit perfectly.
 * **Relevant specifications** The jaw length is 30 mm. The jaw capacity is 4 mm standard and 12.5 mm when stretched. 
-* **Parylene Device** Apply a thin layer of parylene coating on the internal and external surfaces on the mold to prevent PDMS adhesion.
-* **Cast PDMS** Pour PDMS coating onto the mold and cure it for 24 hours at 23 degrees Celsius. Then carefully remove the PDMS from the mold.
-* **Plasma Bond Glass Slide** Press the glass slide surface onto the PDMS and press them together to stick them to each other, ensuring no air bubbles are trapped.
+* **Print Settings** For the elastic, middle part, the top and bottom solid layers were decreased to 0 and the grid infill pattern was selected.
 
-# Discussion
-
-* Resin printed molds are coated parylene to create a hydrophobic layer that prevents uncured PDMS from reacting to or adhering to the resin mold surface. This results in a smoother finish with less defects. One application of the micro fluidic sorting device is that it could be used for a biomedical research project where cells have to be separated based on size to be studied. Other applications include drug testing, food testing, and environmental testing. 
-
-* My device is conducive to sorting because it provides control over fluid dynamics and the trajectories of certain particles. The pinch width was the smallest feasible option (1.5 times the diameter of the largest particle). The construction focuses the fluid stream and aligns the particles and creates a stable, laminar flow. The pinch width being low increases the precision of particle separation by forcing the particles to align and then flow into distinct streamlines. The outlet width is calculated using the formula for the appropriate Y-coordinates for each particle size. This ensures the flow of particles into the correct outlet, sorted by size. The outlet ports are located at the end of each of these streams to ensure proper separation of particles by size.
-
-* To ensure that each outlet receives the same flow rate, symmetrical outlet design is ensured by maintaining equal channel lengths, maintaining equal hydraulic resistance. Also the design minimizes dead volumes and sharp edges, which causes a decrease in trapped bubbles, which are potential causes for change in flow rate. 
-
-* Based on the results, one improvement that can be made is ensuring better outlet channel geometry. This can be done by altering outlet widths to ensure that each outlet has the same area. The length of the outlet channel can also be altered to make sure that each outlet is symmetrical, ideally the same length. The shape of the outlet channels can be altered to have equal flow rates in each channel. The transition angles to the outlet channels can also be smoothed by fillets. More outlet ports could also help sort finer particle size, but that could also bring up a challenge for outlet spacing. 
 
 
 {% include gallery caption="Pliers Gallery" %}
