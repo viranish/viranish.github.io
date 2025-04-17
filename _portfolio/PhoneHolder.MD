@@ -2,15 +2,15 @@
 title: "Bike Phone Mount/Holder"
 excerpt: "A TPU phone holder supported by a multi-component PLA support structure that mounts on a bike. The phone holder rotates and snaps into place at certain angles."
 header:
-  image: /assets/img/IMG_5273.jpg
-  teaser: /assets/img/IMG_5274.jpg
+  image: /assets/img/IMG_5319.jpg
+  teaser: /assets/img/IMG_5319.jpg
 gallery:
-  - image_path: assets/img/IMG_5280.jpg
-  - image_path: assets/img/IMG_5273.jpg
-  - image_path: assets/img/IMG_5274.jpg 
-  - image_path: assets/img/IMG_5275.jpg
-  - image_path: assets/img/gif.gif
-
+  - image_path: assets/img/IMG_5319.jpg
+  - image_path: assets/img/IMG_5313.jpg
+  - image_path: assets/img/IMG_5314.jpg
+  - image_path: assets/img/IMG_5317.GIF
+  - image_path: assets/img/IMG_5318.GIF
+ 
 ---
 
 # Top Down Modeling
