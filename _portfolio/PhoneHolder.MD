@@ -10,6 +10,9 @@ gallery:
   - image_path: assets/img/IMG_5314.jpg
   - image_path: assets/img/IMG_5317.GIF
   - image_path: assets/img/IMG_5318.GIF
+  - image_path: assets/img/cross.jpg
+  - image_path: assets/img/View1.png
+  - image_path: assets/img/View2.jpg
  
 ---
 
