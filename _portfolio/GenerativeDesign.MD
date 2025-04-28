@@ -2,12 +2,12 @@
 title: "Genrative Design Spool Holder"
 excerpt: "A filament spool holder for a 3D printer, created using generative design."
 header:
-  image: /assets/img/IMG_9221.jpg
-  teaser: /assets/img/IMG_9222.jpg
+  image: /assets/img/IMG_5338.jpg
+  teaser: /assets/img/IMG_5338.jpg
 gallery:
-  - image_path: assets/img/IMG_9221.jpg
-  - image_path: assets/img/IMG_9222.jpg 
-  - image_path: assets/img/Screenshot 2025-01-21 012402.png
+  - image_path: assets/img/IMG_5336.jpg
+  - image_path: assets/img/IMG_5337.jpg 
+  - image_path: assets/img/IMG_5338.jpg
    
 ---
 
@@ -42,5 +42,9 @@ gallery:
 | -------------         || -------------         || -------------         || -------------         |
 | Weight                || 250 N                 || Spool holder          || Gravity weighs it down|
 
+# Different Generated designs from CAD
+  - image_path: assets/img/first.jpg
+  - image_path: assets/img/second.jpg 
+  - image_path: assets/img/third.jpg
 
 {% include gallery caption="Generative Design Gallery" %}
