@@ -12,7 +12,6 @@ gallery:
 ---
 
 # Overview of the Part and Application
-
 * The final part is a spool holder for a filament printer. The plastic is placed on the holder and fitted through the tube, which is also held in place with the part.
 *	People are often not able to reach the filament spool at the back of the printer, so the holder places the spool on top of the printer, where people can reach it. 
 *	The project is meaningful because it attempts to aid the digital fabrication lab. Since I’ve used the space myself, it felt great to attempt to give something back to the lab.
