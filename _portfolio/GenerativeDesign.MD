@@ -8,7 +8,10 @@ gallery:
   - image_path: assets/img/IMG_5336.jpg
   - image_path: assets/img/IMG_5337.jpg 
   - image_path: assets/img/IMG_5338.jpg
-   
+  - image_path: assets/img/first.jpg
+  - image_path: assets/img/second.jpg 
+  - image_path: assets/img/third.jpg
+
 ---
 
 # Overview of the Part and Application
@@ -42,8 +45,6 @@ gallery:
 | Weight                || 250 N                 || Spool holder          || Gravity weighs it down|
 
 # Different Generated designs from CAD
-  - image_path: assets/img/first.jpg
-  - image_path: assets/img/second.jpg 
-  - image_path: assets/img/third.jpg
+* Three designs were generated and the pictures are attached below.
 
 {% include gallery caption="Generative Design Gallery" %}
